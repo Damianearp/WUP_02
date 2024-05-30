@@ -45,6 +45,11 @@ The box plot above shows that c39 are about the same size as c52, however c52 is
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+  
+C39 midpoint is at 51.0, c52 midpoint is at 64.5. The bottom of the c52 box is 58 and te top of box c39 is 54.75  The sd of c39 is 7.123298, and c52 is 8.455156
 
 ## Inferential Results
 
