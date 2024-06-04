@@ -20,6 +20,7 @@ veggy <- cabbages
  The cabbages data from the MASS package is loaded into a dataframe called veggy. Complete this report by answering the following two questions  
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
+Yes, there is a big difference between the c39 cultivation and the c52 cultivation  
 
 # Methods
 
@@ -49,7 +50,7 @@ The box plot above shows that c39 are about the same size as c52, however c52 is
 favstats(VitC~Cult,data=veggy)
 ```
   
-C39 midpoint is at 51.0, c52 midpoint is at 64.5. The bottom of the c52 box is 58 and the top of box c39 is 54.75  The sd of c39 is 7.123298, and c52 is 8.455156
+C39 midpoint is at 51.0, c52 midpoint is at 64.5. The bottom of the c52 box is 58 and the top of box c39 is 54.75  The sd of c39 is 7.123298, and c52 is 8.455156. this shows that c52 is ~27% more effective then c39.
 
 ## Inferential Results
 
