@@ -59,8 +59,8 @@ C39 midpoint is at 51.0, c52 midpoint is at 64.5. The bottom of the c52 box is 5
 t.test(VitC~Cult,data=veggy)
 ```
   
-the probability of this to occur is 0.00000003405  
+the probability of this to occur is 0.00000003405, we reject the null hypothesis. as seen in the numerical chart, c39's cabbages was deemed less effective then c52's cabbages
 
 # Discussion and Conclusion
-
+As we check the cult data, we notice a growth in c52 compared to c39 is visually different form the box plot graph above.we can conduce that what is used in c52 is more effective then what is in c39. The mean of c39 is 51.5 while the mean for c52 is 64.4 as seen in the t.test above.
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
